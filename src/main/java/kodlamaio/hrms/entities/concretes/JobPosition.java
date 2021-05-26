@@ -23,7 +23,7 @@ public class JobPosition {
 	@Column(name="id")
 	private int id;
 	
-	@Column(name="position_name")
+	@Column(name="position_name", unique = true)
 	private String positionName;
 	
 }
